@@ -1,17 +1,17 @@
 {
     "name": "papascott",
-    "text": "<p>I didn't want to be testing here, but it looks like I am.</p>",
+    "text": "<p>I didn't want to be testing here, but as long as I am at it, does an automatic commit work?</p>",
     "id": 16,
     "when": "2016-09-11T13:22:36.470Z",
     "payload": {
         "editor": "wizzy",
-        "urlRendering": "http://test-blog.papascott.de/2016/09/11/testingAgain.html",
+        "urlRendering": "http://1999.papascott.de/2016/09/11/testingAgain.html",
         "title": "Testing again",
         "fnameHtml": "testingAgain.html",
         "flPublished": true
     },
-    "urlJson": "http://test-blog.papascott.de/2016/09/11/0016.json",
+    "urlJson": "http://1999.papascott.de/2016/09/11/0016.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-11T13:23:05.474Z",
-    "ctUpdates": 4
+    "whenLastUpdate": "2016-09-11T14:26:45.767Z",
+    "ctUpdates": 7
 }
