@@ -1,6 +1,6 @@
 {
     "name": "papascott",
-    "text": "<p>I didn't want to be testing here, but as long as I am at it, does an automatic commit work?</p>",
+    "text": "<p>I didn't want to be testing here, but as long as I am at it, does an automatic commit work here?</p>",
     "id": 16,
     "when": "2016-09-11T13:22:36.470Z",
     "payload": {
@@ -12,6 +12,6 @@
     },
     "urlJson": "http://1999.papascott.de/2016/09/11/0016.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-11T14:26:45.767Z",
-    "ctUpdates": 7
+    "whenLastUpdate": "2016-09-11T14:27:21.836Z",
+    "ctUpdates": 8
 }
