@@ -5,13 +5,13 @@
     "when": "2016-09-06T07:38:42.464Z",
     "payload": {
         "editor": "wizzy",
-        "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/09/06/vinylAnniversary.html",
+        "urlRendering": "http://test-blog.papascott.de/2016/09/06/vinylAnniversary.html",
         "title": "Vinyl Anniversary",
         "fnameHtml": "vinylAnniversary.html",
         "flPublished": true
     },
-    "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/09/06/0015.json",
+    "urlJson": "http://test-blog.papascott.de/2016/09/06/0015.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-08T07:44:59.603Z",
-    "ctUpdates": 5
+    "whenLastUpdate": "2016-09-11T12:51:56.426Z",
+    "ctUpdates": 7
 }
