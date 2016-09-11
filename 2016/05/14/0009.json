@@ -1,0 +1,21 @@
+{
+    "name": "papascott",
+    "text": "<p>Nothing real exciting, just starting to style my story pages. I'm not much of a designer, but I'm good at copy-and-paste (in this case, from the <a href=\"http://lanyon.getpoole.com\">Lanyon theme</a> I use on my main blog). I added Lanyon's css files plus<span>&nbsp;a </span><a href=\"http://1999.papascott.de/css/ps.css\">css file of my own</a><span> to the template.</span></p><p><span>Click-to-edit still works. And while digging around trying to find how the </span>%text%<span>&nbsp;macro in the template is&nbsp;assembled, I now k</span>now it's on the client side (in chat.js), not the server.&nbsp;</p>",
+    "id": 9,
+    "when": "2016-05-14T12:19:25.488Z",
+    "payload": {
+        "editor": "wizzy",
+        "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/05/14/0009.html",
+        "title": "Starting to Style",
+        "flPublished": true
+    },
+    "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/05/14/0009.json",
+    "subs": [],
+    "whenLastUpdate": "2016-05-18T19:18:26.231Z",
+    "ctUpdates": 17,
+    "likes": {
+        "KenBooth": {
+            "when": "2016-05-14T15:57:24.863Z"
+        }
+    }
+}

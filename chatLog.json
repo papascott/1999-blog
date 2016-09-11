@@ -1,0 +1,300 @@
+{
+    "chatLog": [
+        {
+            "name": "papascott",
+            "text": "<p>So, I've broken this two times, let's see if I can do it a third time! But then that's enough.</p>",
+            "id": 1,
+            "when": "2016-04-17T09:47:45.463Z",
+            "payload": {
+                "flPublished": true,
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/04/17/0001.html",
+                "title": "Broken"
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/17/0001.json",
+            "subs": [],
+            "whenLastUpdate": "2016-04-17T15:30:27.372Z",
+            "ctUpdates": 3
+        },
+        {
+            "name": "papascott",
+            "text": "<p>Not as broken as HSV played today. Everyone below them wins, they lose, red card to Adler, and Ekdal is injured again. Argh! :-(</p>",
+            "id": 2,
+            "when": "2016-04-17T15:26:30.546Z",
+            "payload": {
+                "flPublished": true,
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/04/17/0002.html",
+                "title": "HSV in the Bundesliga is broken worse"
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/17/0002.json",
+            "subs": [],
+            "whenLastUpdate": "2016-04-17T16:20:11.811Z",
+            "ctUpdates": 7
+        },
+        {
+            "name": "papascott",
+            "text": "<p>Third post! And now the addNewObject function seems to work! I just have to get the require right. Pretty easy to force errors. Kind of like the HSV defense today. So what happens now? Relative path to s3.js in the require? Or, say what, absolutely no require? The require is not required? So it seems. No require it is! Or isn't.</p>",
+            "id": 3,
+            "when": "2016-04-17T15:45:37.190Z",
+            "payload": {
+                "flPublished": true,
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/04/17/0003.html",
+                "title": "Third post"
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/17/0003.json",
+            "subs": [],
+            "whenLastUpdate": "2016-04-18T15:10:45.558Z",
+            "ctUpdates": 16
+        },
+        {
+            "name": "papascott",
+            "text": "<p>Our house turns 20 years old this year. And every spring the same thing happens. The ants come into the kitchen for a few weeks. Then they disappear.  </p><p>Ours is a good, solid German house, made of brick. But we live out in the country, and out in the country one has to deal with critters and creepy-crawly things. The doors and windows are tight, but there is obviously a crack in the outside wall to the kitchen. Every spring the ants wake up, get hungry, come inside the wall, and then maybe behind the cabinets, and find an entry to the kitchen.</p><p>Every year they find a <i>new</i>&nbsp;entry. I've heard that ants have collective intelligence, and that it's probably passed down from generation to generation. They are probably more intelligent than we, since every year we forget that the ants are coming. And then it takes us several days to find their point of entry.</p><p>Since we can't think like ants, we have to wait until a whole bunch of them have come in so we can see their trail. Then we get out the ant spray, secure the entry, and wait a few days see if they find a new entry and come back.</p><p>They usually don't. The spring weather gets warmer, and I presume the ants then find it easier to find their food outside rather than risk encountering ant spray inside. But they have the knowledge of how to get into our kitchen, and their offspring will use that knowledge next year, to find a new entry.</p><p>Here is this year's point of entry, and our weapon of choice. We're planning on renovating our kitchen this year. Maybe we'll find that crack in the wall and get it patched.</p>",
+            "id": 4,
+            "when": "2016-04-18T15:21:10.920Z",
+            "payload": {
+                "flPublished": true,
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/04/18/0004.html",
+                "title": "The Ants"
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/18/0004.json",
+            "subs": [
+                {
+                    "name": "frankm",
+                    "text": "<p>I have this happen at my house every spring too. Usually when the humidity and heat increases, we see them in the house, mostly in the kitchen. It seems after a few weeks they disappear. Odd.</p>",
+                    "id": 12,
+                    "when": "2016-06-02T03:16:51.373Z",
+                    "payload": {
+                        "editor": "wizzy",
+                        "idInReplyTo": 4
+                    }
+                }
+            ],
+            "whenLastUpdate": "2016-06-02T03:15:57.268Z",
+            "ctUpdates": 10,
+            "likes": {
+                "frankm": {
+                    "when": "2016-06-02T03:15:57.267Z"
+                }
+            }
+        },
+        {
+            "name": "papascott",
+            "text": "<p><span>I was dreamin' when I wrote this, forgive me if it goes astray…</span></p><p><span>When I lived in Minneapolis, I used to think we were cooler than everyone else because we had our own resident musical genius. That's not true of course, but he </span><a href=\"http://www.startribune.com/prince-was-one-of-our-own-and-he-made-minnesota-seem-cool/376798251/\">made us seem cool</a><span>. And even after he was rich and famous, he stayed in Minnesota. Most of the time, anyway.</span></p><p><span>And now in Europe, even before last week I could say I'm from Minnesota \"where Prince is from\", and for a few moments I'm hip and cool. At least until we change the subject.</span></p><p><span>And maybe, even though I was just a casual fan, that's why his death has saddened me. I've lost a piece of home. <i>Ich habe ein Stück Heimat verloren.</i></span></p><p>To this day, I keep a copy of <i>Dirty Mind</i>&nbsp;(1980) on any mobile device I use. It's an imperfect album. It's sparsely produced, it almost sounds like a demo. And the lyrics, well, Prince was the artist for whom the term \"explicit content\" was invented, and they distract from the music. But it's tight. Every note, every beat, on every track hits. Just listen to the 2nd side (this was back when albums had sides), with Uptown-Head-Sister-Partyup, beginning to end. It still blows me away.</p><p>(My favorite track, though, is on the first side, When You Were Mine. Mr. LoveSexy turns into a bat-shit-crazy ex. Both funny and sexy as hell.)&nbsp;</p>",
+            "id": 5,
+            "when": "2016-04-22T15:15:32.524Z",
+            "payload": {
+                "flPublished": true,
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/04/22/0005.html",
+                "title": "Prince"
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/22/0005.json",
+            "subs": [],
+            "whenLastUpdate": "2016-04-23T20:59:48.449Z",
+            "ctUpdates": 23
+        },
+        {
+            "name": "papascott",
+            "text": "<p>Last year I converted my Wordpress blog to <a href=\"http://jekyllrb.com/\">Jekyll</a>. My 16 years of blogging are now saved as text files which Jekyll renders into static HTML, which I then push to GitHub where the blog is now hosted. I <a href=\"http://www.papascott.de/archives/2015/04/30/see-what-sticks/\">mentioned then</a> that I took Jekyll some 3 minutes to render my 3000 or so blog posts, which is kind of a drag since the default is to rebuild the entire site every time even a small change is made.&nbsp;</p><p>Actually, the latest version of Jekyll improved build times considerably. It can now build my 3000 pages in about a minute. But when making changes, that's still too long to wait.</p><p>However, using a trick, I can now build those 3000 pages in 4 seconds. The trick seems pretty obvious to me, but I've not seen it written up anyplace, so hence this post.</p><p>The trick, of course, is to <i>not</i> build all 3000 pages. For older posts use <a href=\"https://jquery.com/\">jquery</a> to load in parts of the layout that might change, but leave the HTML file alone. For me, those parts are the sidebar and the recent posts. I build HTML snippets for those divs and load them in like:</p><blockquote>$( \"#sidebar\" ).load( \"/includes/sidebar.html\" );</blockquote><p>Right now, on the Jekyll side I don't want it to rebuild posts from before 2015. I've put all those ins a _posts/older subdirectory and added an exclude: directive in my _config.yml:</p><blockquote>exclude: [_posts/older]</blockquote><p>On the HTML side, ever since I started blogging, even way-back-when with <a href=\"http://scripting.com/davenet/1999/12/08/editthispagecom.html\">EditThisPage</a>, my posts have been sorted by date. I need to tell Jekyll not to erase the pages I've chosen not to rebuild (and it's too bad _config.yml doesn't understand wild cards)</p><blockquote>keep_files: [archives/1999, archives/200, archives/2010, archives/2011, archives/2012, archives/2013, archives/2014 ]</blockquote><p>At least \"archives/200\" covers an entire decade in one entry. :smile:</p><p>And that's it. When I do want to rebuild to entire site, I can comment out those two directives and let 'er rip. And being hosted at GitHub, you can see all my gory source files in the source branch at <a href=\"https://github.com/papascott/papascott.github.io\">https://github.com/papascott/papascott.github.io</a></p>",
+            "id": 6,
+            "when": "2016-04-25T06:23:42.718Z",
+            "payload": {
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/04/25/0006.html",
+                "title": "How to build 3000 pages in Jekyll in less than 4 seconds",
+                "flPublished": true
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/25/0006.json",
+            "subs": [],
+            "whenLastUpdate": "2016-04-25T07:29:39.969Z",
+            "ctUpdates": 19
+        },
+        {
+            "name": "papascott",
+            "text": "<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/nsF-UrqqkSQ\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p><p><span>This is how our son stays out of trouble on weekends. At 16 in Germany he can fly solo, but yet not drive a car.:-)</span></p>",
+            "id": 7,
+            "when": "2016-04-27T16:25:20.968Z",
+            "payload": {
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/04/27/0007.html",
+                "title": "Gliding 2",
+                "flPublished": true
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/27/0007.json",
+            "subs": [],
+            "whenLastUpdate": "2016-05-02T16:52:56.350Z",
+            "ctUpdates": 9
+        },
+        {
+            "name": "papascott",
+            "text": "<p>The past few weeks I've been trying out <a href=\"http://scripting.com/2016/05/04/1238.html\">1999.io</a>, the new blogging software by Dave Winer. You can either try it out at his site <a href=\"http://my.1999.io\"><span data-auto-link=\"true\" data-href=\"http://my.1999.io\">my.1999.io</span></a>&nbsp;(you just need a Twitter ID to log in) or you can <a href=\"https://github.com/scripting/1999-project/blob/master/docs/setup.md\">install the server</a> on any system that can run Node. Being a server guy I of course installed my own (on a cheap 3,50€/mo VPS), and used it to write my last few blog posts.&nbsp;</p><p>I like it because because it's simple. And simple. Simple to write with, simple to work with.</p><p>It's simple to write with. You just open the editor page and type. To update your text, you just click on it and type. There are some simple formatting options, but nothing that gets in the way. When you update, though WebSocket magic anyone reading your post immediately gets the update.</p><p>And on the server it's <a href=\"http://my.1999.io/users/1999io/2016/04/11/0004.html\">simple to work with</a>. There's no database, just files in open formats readable as text, JSON, OPML, RSS, HTML. Formats you can use for other purposes if you are so inclined. Even the HTML files for each post contain the JSON for the post, which I first thought was redundant but now see is brilliant. It's like the web page contains it's own DNA and can re-create itself.&nbsp;</p><p>These open formats allow one to do things with the output that go beyond the server. For instance, I copy the output of my server to an S3 bucket at <a href=\"http://1999.papascott.de\">1999.papascott.de</a>, which can probably handle the load better than my cheap VPS. :smile: It’s not yet coupled to <a href=\"https://www.papascott.de/\">my main blog</a> on Jekyll (right now I’m using copy and paste), but I imagine it wouldn’t too much cleverness to achieve that.</p><p>I hope someday to be able to use <a href=\"http://1999.io\"><span data-auto-link=\"true\" data-href=\"http://1999.io\">1999.io</span></a> as a blogging central, with the ability to send my posts to my blog, or Twitter, or Facebook, or Medium, or wherever, but keeping my original posts for myself. I'll let those big silos show my work, but not own it.&nbsp;</p>",
+            "id": 8,
+            "when": "2016-05-05T07:05:11.138Z",
+            "payload": {
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/05/05/0008.html",
+                "title": "1999.io is simple. And simple.",
+                "flPublished": true
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/05/05/0008.json",
+            "subs": [],
+            "whenLastUpdate": "2016-05-14T12:00:42.986Z",
+            "ctUpdates": 33,
+            "likes": {
+                "davewiner": {
+                    "when": "2016-05-05T14:35:01.309Z"
+                },
+                "papaschrott": {
+                    "when": "2016-05-14T12:00:25.247Z"
+                }
+            }
+        },
+        {
+            "name": "papascott",
+            "text": "<p>Nothing real exciting, just starting to style my story pages. I'm not much of a designer, but I'm good at copy-and-paste (in this case, from the <a href=\"http://lanyon.getpoole.com\">Lanyon theme</a> I use on my main blog). I added Lanyon's css files plus<span>&nbsp;a </span><a href=\"http://1999.papascott.de/css/ps.css\">css file of my own</a><span> to the template.</span></p><p><span>Click-to-edit still works. And while digging around trying to find how the </span>%text%<span>&nbsp;macro in the template is&nbsp;assembled, I now k</span>now it's on the client side (in chat.js), not the server.&nbsp;</p>",
+            "id": 9,
+            "when": "2016-05-14T12:19:25.488Z",
+            "payload": {
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/05/14/0009.html",
+                "title": "Starting to Style",
+                "flPublished": true
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/05/14/0009.json",
+            "subs": [],
+            "whenLastUpdate": "2016-05-18T19:18:26.231Z",
+            "ctUpdates": 17,
+            "likes": {
+                "KenBooth": {
+                    "when": "2016-05-14T15:57:24.863Z"
+                }
+            }
+        },
+        {
+            "name": "papascott",
+            "text": "<p>As <a href=\"http://blog.1999.io/2016/05/30/0027.html\">announced</a>&nbsp;at <a href=\"http://blog.1999.io\">blog.1999.io</a>, <a href=\"http://1999.io\"><span data-auto-link=\"true\" data-href=\"http://1999.io\">1999.io</span></a>&nbsp;now produces monthly archive pages. If your sever is up to date, the archive will be automatically saved under <i>/users/username/year/month/index.html</i> when you publish (or re-publish). My May archive is&nbsp;<a href=\"http://1999.papascott.de/2016/05/\">http://1999.papascott.de/2016/05/</a>.</p><p><span>If you're styling, there's a new&nbsp;</span><span style=\"font-style: italic; line-height: 22.4px;\">divArchivePageTitle</span><span><i>&nbsp;</i>to add to your style sheets.&nbsp;</span></p>",
+            "id": 10,
+            "when": "2016-05-31T06:06:15.343Z",
+            "payload": {
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/05/31/0010.html",
+                "title": "Monthly archives",
+                "flPublished": true
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/05/31/0010.json",
+            "subs": [
+                {
+                    "name": "AndySylvester99",
+                    "text": "<p>Thanks for pointing out that the month has to be added to the URL. Your styling looks good!</p>",
+                    "id": 11,
+                    "when": "2016-05-31T18:19:53.234Z",
+                    "payload": {
+                        "editor": "wizzy",
+                        "idInReplyTo": 10
+                    }
+                }
+            ],
+            "whenLastUpdate": "2016-05-31T18:19:14.976Z",
+            "ctUpdates": 12,
+            "likes": {
+                "AndySylvester99": {
+                    "when": "2016-05-31T18:19:14.976Z"
+                }
+            }
+        },
+        {
+            "name": "papascott",
+            "text": "<p>I feel like I'm in college again! #birkenstocks</p>",
+            "id": 13,
+            "when": "2016-08-03T06:09:09.620Z",
+            "payload": {
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/08/03/0013.html"
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/08/03/0013.json",
+            "subs": [],
+            "whenLastUpdate": "2016-08-03T06:11:17.538Z",
+            "ctUpdates": 2
+        },
+        {
+            "name": "papascott",
+            "text": "<p>This happened over 9 years ago, so I think it's safe to tell the story now.</p><p>When my wife bought our first restaurant, she set up a corporation (GmbH) for the new business. However, our lawyer was lazy, or slow, or something, and for our start of business the registration of the GmbH had not yet been approved by the local court. No registration, no firm, no business loan could be paid out. With a 7-figure purchase price due that day.</p><p>No problem, says the bank, we'll book the purchase from your private account, even though our account balance was more like 3 figures and not 7. We'll increase your overdraft limit until the GmbH gets registered. No problem.</p><p><span>So to this day I have a screenshot of electronic banking with an balance that day of minus one million Euros.&nbsp;</span></p><p><span>We thought that was pretty funny until we tried to buy groceries and our bank card got denied. We had to call the bank again to increase our limit a bit more so we could eat.</span></p>",
+            "id": 14,
+            "when": "2016-08-05T16:42:42.631Z",
+            "payload": {
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/08/05/millionEuroOverdraft.html",
+                "title": "Million Euro Overdraft",
+                "fnameHtml": "millionEuroOverdraft.html",
+                "flPublished": true
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/08/05/0014.json",
+            "subs": [],
+            "whenLastUpdate": "2016-08-06T06:35:10.848Z",
+            "ctUpdates": 8
+        },
+        {
+            "name": "papascott",
+            "text": "<p>Today is our 33rd anniversary. In 4 months it will be 33-1/3. Then it will be a LP record.</p>",
+            "id": 15,
+            "when": "2016-09-06T07:38:42.464Z",
+            "payload": {
+                "editor": "wizzy",
+                "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/09/06/vinylAnniversary.html",
+                "title": "Vinyl Anniversary",
+                "fnameHtml": "vinylAnniversary.html",
+                "flPublished": true
+            },
+            "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/09/06/0015.json",
+            "subs": [],
+            "whenLastUpdate": "2016-09-08T07:44:59.603Z",
+            "ctUpdates": 5
+        }
+    ],
+    "rssHeadElements": {
+        "title": "papascott's chatlog",
+        "link": "http://edit.papascott.de:1999/users/papascott/",
+        "description": "",
+        "language": "en-us",
+        "generator": "1999.io",
+        "docs": "http://cyber.law.harvard.edu/rss/rss.html",
+        "maxFeedItems": 100,
+        "appDomain": "1999.io",
+        "flRssCloudEnabled": true,
+        "rssCloudDomain": "rpc.rsscloud.io",
+        "rssCloudPort": 5337,
+        "rssCloudPath": "/pleaseNotify",
+        "rssCloudRegisterProcedure": "",
+        "rssCloudProtocol": "http-post",
+        "flInstantArticlesSupport": false
+    },
+    "renderingPrefs": {
+        "siteName": "papascott",
+        "authorFacebookAccount": "papascott",
+        "authorGithubAccount": "papascott",
+        "authorLinkedInAccount": "",
+        "copyright": "Copyright? We don't need no stinking copyright!",
+        "flAnyoneCanReply": true,
+        "urlBlogHome": "http://edit.papascott.de:1999/users/papascott/",
+        "urlOpmlTemplate": "http://edit.papascott.de:1999/users/papascott/misc/template.opml",
+        "urlHtmlMenubar": "http://edit.papascott.de:1999/users/papascott/misc/menubar.html",
+        "urlOpmlMenubar": "http://edit.papascott.de:1999/users/papascott/misc/menubar.opml"
+    },
+    "prefs": {
+        "serialNum": 16,
+        "whenLogPrefsCreated": "2016-04-17T09:43:49.334Z"
+    },
+    "version": 2,
+    "flDirty": false,
+    "name": "papascott",
+    "jsonPath": "publicFiles/users/papascott/chatLog.json",
+    "s3Path": "publicFiles/users/papascott/",
+    "urlPublicFolder": "http://edit.papascott.de:1999/users/papascott/",
+    "usersWhoCanPost": [
+        "papascott"
+    ],
+    "urlFeed": "http://edit.papascott.de:1999/users/papascott/rss.xml"
+}

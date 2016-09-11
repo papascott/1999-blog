@@ -1,0 +1,17 @@
+{
+    "name": "papascott",
+    "text": "<p>Today is our 33rd anniversary. In 4 months it will be 33-1/3. Then it will be a LP record.</p>",
+    "id": 15,
+    "when": "2016-09-06T07:38:42.464Z",
+    "payload": {
+        "editor": "wizzy",
+        "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/09/06/vinylAnniversary.html",
+        "title": "Vinyl Anniversary",
+        "fnameHtml": "vinylAnniversary.html",
+        "flPublished": true
+    },
+    "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/09/06/0015.json",
+    "subs": [],
+    "whenLastUpdate": "2016-09-08T07:44:59.603Z",
+    "ctUpdates": 5
+}

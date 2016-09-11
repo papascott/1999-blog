@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>menubar.opml</title>
+		<dateModified>Wed, 01 Jun 2016 05:40:03 GMT</dateModified>
+		<expansionState>1</expansionState>
+		<vertScrollState>1</vertScrollState>
+		<windowTop>300</windowTop>
+		<windowLeft>700</windowLeft>
+		<windowBottom>900</windowBottom>
+		<windowRight>1500</windowRight>
+		<lastCursor>3</lastCursor>
+		</head>
+	<body>
+		<outline text="Links">
+			<outline text="Home" type="link" url="http://1999.papascott.de/"/>
+			<outline text="About 1999..." name="aboutScripting" type="link" url="http://home.1999.io/"/>
+			<outline text="Archive May 2016" type="link" url="http://edit.papascott.de:1999/users/papascott/2016/05/"/>
+			</outline>
+		</body>
+	</opml>

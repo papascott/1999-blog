@@ -1,0 +1,33 @@
+{
+    "name": "papascott",
+    "text": "<p>As <a href=\"http://blog.1999.io/2016/05/30/0027.html\">announced</a>&nbsp;at <a href=\"http://blog.1999.io\">blog.1999.io</a>, <a href=\"http://1999.io\"><span data-auto-link=\"true\" data-href=\"http://1999.io\">1999.io</span></a>&nbsp;now produces monthly archive pages. If your sever is up to date, the archive will be automatically saved under <i>/users/username/year/month/index.html</i> when you publish (or re-publish). My May archive is&nbsp;<a href=\"http://1999.papascott.de/2016/05/\">http://1999.papascott.de/2016/05/</a>.</p><p><span>If you're styling, there's a new&nbsp;</span><span style=\"font-style: italic; line-height: 22.4px;\">divArchivePageTitle</span><span><i>&nbsp;</i>to add to your style sheets.&nbsp;</span></p>",
+    "id": 10,
+    "when": "2016-05-31T06:06:15.343Z",
+    "payload": {
+        "editor": "wizzy",
+        "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/05/31/0010.html",
+        "title": "Monthly archives",
+        "flPublished": true
+    },
+    "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/05/31/0010.json",
+    "subs": [
+        {
+            "name": "AndySylvester99",
+            "text": "<p>Thanks for pointing out that the month has to be added to the URL. Your styling looks good!</p>",
+            "id": 11,
+            "when": "2016-05-31T18:19:53.234Z",
+            "payload": {
+                "editor": "wizzy",
+                "idInReplyTo": 10
+            }
+        }
+    ],
+    "whenLastUpdate": "2016-05-31T18:19:14.976Z",
+    "ctUpdates": 12,
+    "likes": {
+        "AndySylvester99": {
+            "when": "2016-05-31T18:19:14.976Z"
+        }
+    },
+    "idLatestReply": 11
+}

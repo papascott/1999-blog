@@ -1,0 +1,33 @@
+{
+    "name": "papascott",
+    "text": "<p>Our house turns 20 years old this year. And every spring the same thing happens. The ants come into the kitchen for a few weeks. Then they disappear.  </p><p>Ours is a good, solid German house, made of brick. But we live out in the country, and out in the country one has to deal with critters and creepy-crawly things. The doors and windows are tight, but there is obviously a crack in the outside wall to the kitchen. Every spring the ants wake up, get hungry, come inside the wall, and then maybe behind the cabinets, and find an entry to the kitchen.</p><p>Every year they find a <i>new</i>&nbsp;entry. I've heard that ants have collective intelligence, and that it's probably passed down from generation to generation. They are probably more intelligent than we, since every year we forget that the ants are coming. And then it takes us several days to find their point of entry.</p><p>Since we can't think like ants, we have to wait until a whole bunch of them have come in so we can see their trail. Then we get out the ant spray, secure the entry, and wait a few days see if they find a new entry and come back.</p><p>They usually don't. The spring weather gets warmer, and I presume the ants then find it easier to find their food outside rather than risk encountering ant spray inside. But they have the knowledge of how to get into our kitchen, and their offspring will use that knowledge next year, to find a new entry.</p><p>Here is this year's point of entry, and our weapon of choice. We're planning on renovating our kitchen this year. Maybe we'll find that crack in the wall and get it patched.</p>",
+    "id": 4,
+    "when": "2016-04-18T15:21:10.920Z",
+    "payload": {
+        "flPublished": true,
+        "editor": "wizzy",
+        "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/04/18/0004.html",
+        "title": "The Ants"
+    },
+    "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/18/0004.json",
+    "subs": [
+        {
+            "name": "frankm",
+            "text": "<p>I have this happen at my house every spring too. Usually when the humidity and heat increases, we see them in the house, mostly in the kitchen. It seems after a few weeks they disappear. Odd.</p>",
+            "id": 12,
+            "when": "2016-06-02T03:16:51.373Z",
+            "payload": {
+                "editor": "wizzy",
+                "idInReplyTo": 4
+            }
+        }
+    ],
+    "whenLastUpdate": "2016-06-02T03:15:57.268Z",
+    "ctUpdates": 10,
+    "likes": {
+        "frankm": {
+            "when": "2016-06-02T03:15:57.267Z"
+        }
+    },
+    "idLatestReply": 12
+}

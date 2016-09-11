@@ -1,0 +1,16 @@
+{
+    "name": "papascott",
+    "text": "<p>Third post! And now the addNewObject function seems to work! I just have to get the require right. Pretty easy to force errors. Kind of like the HSV defense today. So what happens now? Relative path to s3.js in the require? Or, say what, absolutely no require? The require is not required? So it seems. No require it is! Or isn't.</p>",
+    "id": 3,
+    "when": "2016-04-17T15:45:37.190Z",
+    "payload": {
+        "flPublished": true,
+        "editor": "wizzy",
+        "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/04/17/0003.html",
+        "title": "Third post"
+    },
+    "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/17/0003.json",
+    "subs": [],
+    "whenLastUpdate": "2016-04-18T15:10:45.558Z",
+    "ctUpdates": 16
+}

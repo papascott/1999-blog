@@ -1,0 +1,230 @@
+<html>
+
+	<head>
+
+		<title>1999.io is simple. And simple.</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="alternate" type="application/rss+xml" href="http://edit.papascott.de:1999/users/papascott/rss.xml" />
+
+		
+
+		<script src="http://1999.io/dev/publish/code.js"></script>
+
+		<link rel="stylesheet" href="http://1999.io/dev/publish/styles.css"/>
+
+		<link rel="stylesheet" href="http://1999.papascott.de/css/poole.css">   
+
+		<link rel="stylesheet" href="http://1999.papascott.de/css/syntax.css">
+
+		<link rel="stylesheet" href="http://1999.papascott.de/css/lanyon.css">
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+		<link rel="stylesheet" href="http://1999.papascott.de/css/ps.css"/>
+
+		
+
+		<!-- Hellllp! I'm trapped in an HTML page! And this is a test. -->
+
+		
+
+		<!-- Facebook metadata -->
+
+			<meta property="og:url" content="http://edit.papascott.de:1999/users/papascott/2016/05/05/0008.html" />
+
+			<meta property="og:type" content="website" />
+
+			<meta property="og:title" content="1999.io is simple. And simple." />
+
+			<meta property="og:description" content="The past few weeks I've been trying out 1999.io, the new blogging software by Dave Winer. You can either try it out at his site my.1999.io&amp;nbsp;(you just need a Twitter ID to log in) or you can install the server on any system that can run Node. Being a server guy I of course installed my own (on a cheap 3,50€/mo VPS), and used it to write my last few blog posts.&amp;nbsp;I like it because because it's simple. And simple. Simple to write with, simple to work with.It's simple to write with. You just open the editor page and type. To update your text, you just click on it and type. There are some simple formatting options, but nothing that gets in the way. When you update, though WebSocket magic anyone reading your post immediately gets the update.And on the server it's simple to work with. There's no database, just files in open formats readable as text, JSON, OPML, RSS, HTML. Formats you can use for other purposes if you are so inclined. Even the HTML files for each post contain the JSON for the post, which I first thought was redundant but now see is brilliant. It's like the web page contains it's own DNA and can re-create itself.&amp;nbsp;These open formats allow one to do things with the output that go beyond the server. For instance, I copy the output of my server to an S3 bucket at 1999.papascott.de, which can probably handle the load better than my cheap VPS. :smile: It’s not yet coupled to my main blog on Jekyll (right now I’m using copy and paste), but I imagine it wouldn’t too much cleverness to achieve that.I hope someday to be able to use 1999.io as a blogging central, with the ability to send my posts to my blog, or Twitter, or Facebook, or Medium, or wherever, but keeping my original posts for myself. I'll let those big silos show my work, but not own it.&amp;nbsp;" />
+
+			<meta property="og:site_name" content="papascott" />
+
+			<meta property="og:image" content="" />
+
+		<!-- Twitter metadata -->
+
+			<meta name="twitter:card" content="summary_large_image">
+
+			<meta name="twitter:site" content="@papascott">
+
+			<meta name="twitter:title" content="1999.io is simple. And simple.">
+
+			<meta name="twitter:description" content="The past few weeks I've been trying out 1999.io, the new blogging software by Dave Winer. You can either try it out at his site my.1999.io&amp;nbsp;(you just need a Twitter ID to log in) or you can install the server on any system that can run Node. Being a server guy I of course installed my own (on a cheap 3,50€/mo VPS), and used it to write my last few blog posts.&amp;nbsp;I like it because because it's simple. And simple. Simple to write with, simple to work with.It's simple to write with. You just open the editor page and type. To update your text, you just click on it and type. There are some simple formatting options, but nothing that gets in the way. When you update, though WebSocket magic anyone reading your post immediately gets the update.And on the server it's simple to work with. There's no database, just files in open formats readable as text, JSON, OPML, RSS, HTML. Formats you can use for other purposes if you are so inclined. Even the HTML files for each post contain the JSON for the post, which I first thought was redundant but now see is brilliant. It's like the web page contains it's own DNA and can re-create itself.&amp;nbsp;These open formats allow one to do things with the output that go beyond the server. For instance, I copy the output of my server to an S3 bucket at 1999.papascott.de, which can probably handle the load better than my cheap VPS. :smile: It’s not yet coupled to my main blog on Jekyll (right now I’m using copy and paste), but I imagine it wouldn’t too much cleverness to achieve that.I hope someday to be able to use 1999.io as a blogging central, with the ability to send my posts to my blog, or Twitter, or Facebook, or Medium, or wherever, but keeping my original posts for myself. I'll let those big silos show my work, but not own it.&amp;nbsp;">
+
+			<meta name="twitter:image:src" content="">
+
+		<style>
+
+			.brand a {
+
+				color:  #777777;
+
+				}
+
+			</style>
+
+		<script>
+
+			var pagetable = {
+    "productname": "1999",
+    "productnameForDisplay": "1999",
+    "description": "The past few weeks I've been trying out 1999.io, the new blogging software by Dave Winer. You can either try it out at his site my.1999.io&amp;nbsp;(you just need a Twitter ID to log in) or you can install the server on any system that can run Node. Being a server guy I of course installed my own (on a cheap 3,50€/mo VPS), and used it to write my last few blog posts.&amp;nbsp;I like it because because it's simple. And simple. Simple to write with, simple to work with.It's simple to write with. You just open the editor page and type. To update your text, you just click on it and type. There are some simple formatting options, but nothing that gets in the way. When you update, though WebSocket magic anyone reading your post immediately gets the update.And on the server it's simple to work with. There's no database, just files in open formats readable as text, JSON, OPML, RSS, HTML. Formats you can use for other purposes if you are so inclined. Even the HTML files for each post contain the JSON for the post, which I first thought was redundant but now see is brilliant. It's like the web page contains it's own DNA and can re-create itself.&amp;nbsp;These open formats allow one to do things with the output that go beyond the server. For instance, I copy the output of my server to an S3 bucket at 1999.papascott.de, which can probably handle the load better than my cheap VPS. :smile: It’s not yet coupled to my main blog on Jekyll (right now I’m using copy and paste), but I imagine it wouldn’t too much cleverness to achieve that.I hope someday to be able to use 1999.io as a blogging central, with the ability to send my posts to my blog, or Twitter, or Facebook, or Medium, or wherever, but keeping my original posts for myself. I'll let those big silos show my work, but not own it.&amp;nbsp;",
+    "urlTwitterServer": "http://edit.papascott.de:1999/",
+    "urlPageTemplate": "/template.html",
+    "urlChatLogSocket": "ws://edit.papascott.de:2000/",
+    "domain": "1999.io",
+    "nameChatLog": "papascott",
+    "facebookAppId": "1720585981555833",
+    "version": "0.89u",
+    "flEditChatUsePostBody": true,
+    "ctStartups": 71,
+    "flAutoSave": true,
+    "minSecsBetwAutoSaves": 2,
+    "textFont": "Ubuntu",
+    "textFontSize": 22,
+    "textLineHeight": 30,
+    "outlineFont": "Ubuntu",
+    "outlineFontSize": 16,
+    "outlineLineHeight": 24,
+    "savedTextArea": "",
+    "flSavedOpml": false,
+    "flChirpOnNewMessage": true,
+    "flUseMarkdown": false,
+    "lastTweetUrl": "https://twitter.com/davewiner/status/641643858514837504",
+    "lastPostTitle": "My new blog post",
+    "urlGlossaryOpml": "",
+    "copyright": "Copyright? We don't need no stinking copyright!",
+    "authorFacebookAccount": "papascott",
+    "authorGithubAccount": "papascott",
+    "authorLinkedInAccount": "",
+    "urlRssFeed": "http://edit.papascott.de:1999/users/papascott/rss.xml",
+    "lastPodcastUrl": "",
+    "flAutoPublish": false,
+    "flPublishToFacebook": false,
+    "flEditorsMenu": false,
+    "flPlugInsMenu": true,
+    "siteName": "papascott",
+    "urlBlogHome": "http://edit.papascott.de:1999/users/papascott/",
+    "collaborators": "papascott",
+    "rssTitle": "papascott's chatlog",
+    "rssLink": "http://edit.papascott.de:1999/users/papascott/",
+    "rssDescription": "",
+    "rssInstantArticlesSupport": false,
+    "flAnyoneCanReply": true,
+    "urlOpmlTemplate": "http://edit.papascott.de:1999/users/papascott/misc/template.opml",
+    "urlHtmlMenubar": "http://edit.papascott.de:1999/users/papascott/misc/menubar.html",
+    "urlOpmlMenubar": "http://edit.papascott.de:1999/users/papascott/misc/menubar.opml",
+    "urlPageStyles": "http://1999.io/dev/publish/styles.css",
+    "urlPageCode": "http://1999.io/dev/publish/code.js",
+    "flHomePage": false,
+    "defaultTitleStyle": "",
+    "urlImage": "",
+    "prev": {
+        "id": 7,
+        "name": "papascott",
+        "when": "2016-04-27T16:25:20.968Z",
+        "title": "Gliding 2",
+        "urlHtml": "http://edit.papascott.de:1999/users/papascott/2016/04/27/0007.html",
+        "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/27/0007.json"
+    },
+    "next": {
+        "id": 9,
+        "name": "papascott",
+        "when": "2016-05-14T12:19:25.488Z",
+        "title": "Starting to Style",
+        "urlHtml": "http://edit.papascott.de:1999/users/papascott/2016/05/14/0009.html",
+        "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/05/14/0009.json"
+    },
+    "title": "1999.io is simple. And simple.",
+    "item": {
+        "name": "papascott",
+        "text": "<p>The past few weeks I've been trying out <a href=\"http://scripting.com/2016/05/04/1238.html\">1999.io</a>, the new blogging software by Dave Winer. You can either try it out at his site <a href=\"http://my.1999.io\"><span data-auto-link=\"true\" data-href=\"http://my.1999.io\">my.1999.io</span></a>&nbsp;(you just need a Twitter ID to log in) or you can <a href=\"https://github.com/scripting/1999-project/blob/master/docs/setup.md\">install the server</a> on any system that can run Node. Being a server guy I of course installed my own (on a cheap 3,50€/mo VPS), and used it to write my last few blog posts.&nbsp;</p><p>I like it because because it's simple. And simple. Simple to write with, simple to work with.</p><p>It's simple to write with. You just open the editor page and type. To update your text, you just click on it and type. There are some simple formatting options, but nothing that gets in the way. When you update, though WebSocket magic anyone reading your post immediately gets the update.</p><p>And on the server it's <a href=\"http://my.1999.io/users/1999io/2016/04/11/0004.html\">simple to work with</a>. There's no database, just files in open formats readable as text, JSON, OPML, RSS, HTML. Formats you can use for other purposes if you are so inclined. Even the HTML files for each post contain the JSON for the post, which I first thought was redundant but now see is brilliant. It's like the web page contains it's own DNA and can re-create itself.&nbsp;</p><p>These open formats allow one to do things with the output that go beyond the server. For instance, I copy the output of my server to an S3 bucket at <a href=\"http://1999.papascott.de\">1999.papascott.de</a>, which can probably handle the load better than my cheap VPS. :smile: It’s not yet coupled to <a href=\"https://www.papascott.de/\">my main blog</a> on Jekyll (right now I’m using copy and paste), but I imagine it wouldn’t too much cleverness to achieve that.</p><p>I hope someday to be able to use <a href=\"http://1999.io\"><span data-auto-link=\"true\" data-href=\"http://1999.io\">1999.io</span></a> as a blogging central, with the ability to send my posts to my blog, or Twitter, or Facebook, or Medium, or wherever, but keeping my original posts for myself. I'll let those big silos show my work, but not own it.&nbsp;</p>",
+        "id": 8,
+        "when": "2016-05-05T07:05:11.138Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/05/05/0008.html",
+            "title": "1999.io is simple. And simple.",
+            "flPublished": true
+        },
+        "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/05/05/0008.json",
+        "subs": [],
+        "whenLastUpdate": "2016-05-14T12:00:42.986Z",
+        "ctUpdates": 33,
+        "likes": {
+            "davewiner": {
+                "when": "2016-05-05T14:35:01.309Z"
+            },
+            "papaschrott": {
+                "when": "2016-05-14T12:00:25.247Z"
+            }
+        }
+    },
+    "personName": "Scott Hanson",
+    "profileImageUrl": "http://pbs.twimg.com/profile_images/492959098724306944/o0uzsnoJ_normal.jpeg",
+    "whenPosted": "Thursday, May  5, 2016",
+    "thispageurl": "http://edit.papascott.de:1999/users/papascott/2016/05/05/0008.html",
+    "twitterscreenname": "papascott",
+    "replies": "<ul>\n</ul>\n"
+}; 
+
+			</script>
+
+		</head>
+
+	<body  class="theme-base-08">
+
+		<div class="divPageBody" id="idPageBody">
+
+			<div class="divPrevNextNavigation" id="idPrevNextNavigation"></div>
+
+			<div class="divMessageTitle" id="idMessageTitle" >1999.io is simple. And simple.</div>
+
+			<div class="divChatLog" id="idChatLog">
+
+				<div class="divStaticChatLogItems">
+	<div class="divChatLogItems">
+		<div class="divChatItem">
+			<div class="divChatIcon"></div>
+			<div class="divChatText">
+				<div class="divTopMsgLine">
+					by <span class="spPersonName"><a href="http://twitter.com/papascott" target="_blank">Scott Hanson</a></span>
+					<span class="spWhen">Thursday, May  5, 2016</span>
+					</div>
+				<div class="divMsgText"><p>The past few weeks I've been trying out <a href="http://scripting.com/2016/05/04/1238.html">1999.io</a>, the new blogging software by Dave Winer. You can either try it out at his site <a href="http://my.1999.io"><span data-auto-link="true" data-href="http://my.1999.io">my.1999.io</span></a>&nbsp;(you just need a Twitter ID to log in) or you can <a href="https://github.com/scripting/1999-project/blob/master/docs/setup.md">install the server</a> on any system that can run Node. Being a server guy I of course installed my own (on a cheap 3,50€/mo VPS), and used it to write my last few blog posts.&nbsp;</p><p>I like it because because it's simple. And simple. Simple to write with, simple to work with.</p><p>It's simple to write with. You just open the editor page and type. To update your text, you just click on it and type. There are some simple formatting options, but nothing that gets in the way. When you update, though WebSocket magic anyone reading your post immediately gets the update.</p><p>And on the server it's <a href="http://my.1999.io/users/1999io/2016/04/11/0004.html">simple to work with</a>. There's no database, just files in open formats readable as text, JSON, OPML, RSS, HTML. Formats you can use for other purposes if you are so inclined. Even the HTML files for each post contain the JSON for the post, which I first thought was redundant but now see is brilliant. It's like the web page contains it's own DNA and can re-create itself.&nbsp;</p><p>These open formats allow one to do things with the output that go beyond the server. For instance, I copy the output of my server to an S3 bucket at <a href="http://1999.papascott.de">1999.papascott.de</a>, which can probably handle the load better than my cheap VPS. :smile: It’s not yet coupled to <a href="https://www.papascott.de/">my main blog</a> on Jekyll (right now I’m using copy and paste), but I imagine it wouldn’t too much cleverness to achieve that.</p><p>I hope someday to be able to use <a href="http://1999.io"><span data-auto-link="true" data-href="http://1999.io">1999.io</span></a> as a blogging central, with the ability to send my posts to my blog, or Twitter, or Facebook, or Medium, or wherever, but keeping my original posts for myself. I'll let those big silos show my work, but not own it.&nbsp;</p></div>
+				<div class="divMessageReplies"><ul>
+</ul>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+				<!--End %text% macro and divChatLog--></div>
+
+			<div class="divFooter" id="idFooter">
+
+				</div>
+
+			</div>
+
+		<script>
+
+			$(document).ready (function () {
+
+				startup ();
+
+				});
+
+			</script>
+
+		</body>
+
+	</html>
+

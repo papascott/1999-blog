@@ -1,0 +1,222 @@
+<html>
+
+	<head>
+
+		<title>How to build 3000 pages in Jekyll in less than 4 seconds</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="alternate" type="application/rss+xml" href="http://edit.papascott.de:1999/users/papascott/rss.xml" />
+
+		
+
+		<script src="http://1999.io/dev/publish/code.js"></script>
+
+		<link rel="stylesheet" href="http://1999.io/dev/publish/styles.css"/>
+
+		<link rel="stylesheet" href="http://1999.papascott.de/css/poole.css">   
+
+		<link rel="stylesheet" href="http://1999.papascott.de/css/syntax.css">
+
+		<link rel="stylesheet" href="http://1999.papascott.de/css/lanyon.css">
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+		<link rel="stylesheet" href="http://1999.papascott.de/css/ps.css"/>
+
+		
+
+		<!-- Hellllp! I'm trapped in an HTML page! And this is a test. -->
+
+		
+
+		<!-- Facebook metadata -->
+
+			<meta property="og:url" content="http://edit.papascott.de:1999/users/papascott/2016/04/25/0006.html" />
+
+			<meta property="og:type" content="website" />
+
+			<meta property="og:title" content="How to build 3000 pages in Jekyll in less than 4 seconds" />
+
+			<meta property="og:description" content="Last year I converted my Wordpress blog to Jekyll. My 16 years of blogging are now saved as text files which Jekyll renders into static HTML, which I then push to GitHub where the blog is now hosted. I mentioned then that I took Jekyll some 3 minutes to render my 3000 or so blog posts, which is kind of a drag since the default is to rebuild the entire site every time even a small change is made.&amp;nbsp;Actually, the latest version of Jekyll improved build times considerably. It can now build my 3000 pages in about a minute. But when making changes, that's still too long to wait.However, using a trick, I can now build those 3000 pages in 4 seconds. The trick seems pretty obvious to me, but I've not seen it written up anyplace, so hence this post.The trick, of course, is to not build all 3000 pages. For older posts use jquery to load in parts of the layout that might change, but leave the HTML file alone. For me, those parts are the sidebar and the recent posts. I build HTML snippets for those divs and load them in like:$( &quot;#sidebar&quot; ).load( &quot;/includes/sidebar.html&quot; );Right now, on the Jekyll side I don't want it to rebuild posts from before 2015. I've put all those ins a _posts/older subdirectory and added an exclude: directive in my _config.yml:exclude: [_posts/older]On the HTML side, ever since I started blogging, even way-back-when with EditThisPage, my posts have been sorted by date. I need to tell Jekyll not to erase the pages I've chosen not to rebuild (and it's too bad _config.yml doesn't understand wild cards)keep_files: [archives/1999, archives/200, archives/2010, archives/2011, archives/2012, archives/2013, archives/2014 ]At least &quot;archives/200&quot; covers an entire decade in one entry. :smile:And that's it. When I do want to rebuild to entire site, I can comment out those two directives and let 'er rip. And being hosted at GitHub, you can see all my gory source files in the source branch at https://github.com/papascott/papascott.github.io" />
+
+			<meta property="og:site_name" content="papascott" />
+
+			<meta property="og:image" content="" />
+
+		<!-- Twitter metadata -->
+
+			<meta name="twitter:card" content="summary_large_image">
+
+			<meta name="twitter:site" content="@papascott">
+
+			<meta name="twitter:title" content="How to build 3000 pages in Jekyll in less than 4 seconds">
+
+			<meta name="twitter:description" content="Last year I converted my Wordpress blog to Jekyll. My 16 years of blogging are now saved as text files which Jekyll renders into static HTML, which I then push to GitHub where the blog is now hosted. I mentioned then that I took Jekyll some 3 minutes to render my 3000 or so blog posts, which is kind of a drag since the default is to rebuild the entire site every time even a small change is made.&amp;nbsp;Actually, the latest version of Jekyll improved build times considerably. It can now build my 3000 pages in about a minute. But when making changes, that's still too long to wait.However, using a trick, I can now build those 3000 pages in 4 seconds. The trick seems pretty obvious to me, but I've not seen it written up anyplace, so hence this post.The trick, of course, is to not build all 3000 pages. For older posts use jquery to load in parts of the layout that might change, but leave the HTML file alone. For me, those parts are the sidebar and the recent posts. I build HTML snippets for those divs and load them in like:$( &quot;#sidebar&quot; ).load( &quot;/includes/sidebar.html&quot; );Right now, on the Jekyll side I don't want it to rebuild posts from before 2015. I've put all those ins a _posts/older subdirectory and added an exclude: directive in my _config.yml:exclude: [_posts/older]On the HTML side, ever since I started blogging, even way-back-when with EditThisPage, my posts have been sorted by date. I need to tell Jekyll not to erase the pages I've chosen not to rebuild (and it's too bad _config.yml doesn't understand wild cards)keep_files: [archives/1999, archives/200, archives/2010, archives/2011, archives/2012, archives/2013, archives/2014 ]At least &quot;archives/200&quot; covers an entire decade in one entry. :smile:And that's it. When I do want to rebuild to entire site, I can comment out those two directives and let 'er rip. And being hosted at GitHub, you can see all my gory source files in the source branch at https://github.com/papascott/papascott.github.io">
+
+			<meta name="twitter:image:src" content="">
+
+		<style>
+
+			.brand a {
+
+				color:  #777777;
+
+				}
+
+			</style>
+
+		<script>
+
+			var pagetable = {
+    "productname": "1999",
+    "productnameForDisplay": "1999",
+    "description": "Last year I converted my Wordpress blog to Jekyll. My 16 years of blogging are now saved as text files which Jekyll renders into static HTML, which I then push to GitHub where the blog is now hosted. I mentioned then that I took Jekyll some 3 minutes to render my 3000 or so blog posts, which is kind of a drag since the default is to rebuild the entire site every time even a small change is made.&amp;nbsp;Actually, the latest version of Jekyll improved build times considerably. It can now build my 3000 pages in about a minute. But when making changes, that's still too long to wait.However, using a trick, I can now build those 3000 pages in 4 seconds. The trick seems pretty obvious to me, but I've not seen it written up anyplace, so hence this post.The trick, of course, is to not build all 3000 pages. For older posts use jquery to load in parts of the layout that might change, but leave the HTML file alone. For me, those parts are the sidebar and the recent posts. I build HTML snippets for those divs and load them in like:$( &quot;#sidebar&quot; ).load( &quot;/includes/sidebar.html&quot; );Right now, on the Jekyll side I don't want it to rebuild posts from before 2015. I've put all those ins a _posts/older subdirectory and added an exclude: directive in my _config.yml:exclude: [_posts/older]On the HTML side, ever since I started blogging, even way-back-when with EditThisPage, my posts have been sorted by date. I need to tell Jekyll not to erase the pages I've chosen not to rebuild (and it's too bad _config.yml doesn't understand wild cards)keep_files: [archives/1999, archives/200, archives/2010, archives/2011, archives/2012, archives/2013, archives/2014 ]At least &quot;archives/200&quot; covers an entire decade in one entry. :smile:And that's it. When I do want to rebuild to entire site, I can comment out those two directives and let 'er rip. And being hosted at GitHub, you can see all my gory source files in the source branch at https://github.com/papascott/papascott.github.io",
+    "urlTwitterServer": "http://edit.papascott.de:1999/",
+    "urlPageTemplate": "/template.html",
+    "urlChatLogSocket": "ws://edit.papascott.de:2000/",
+    "domain": "1999.io",
+    "nameChatLog": "papascott",
+    "facebookAppId": "1720585981555833",
+    "version": "0.89u",
+    "flEditChatUsePostBody": true,
+    "ctStartups": 71,
+    "flAutoSave": true,
+    "minSecsBetwAutoSaves": 2,
+    "textFont": "Ubuntu",
+    "textFontSize": 22,
+    "textLineHeight": 30,
+    "outlineFont": "Ubuntu",
+    "outlineFontSize": 16,
+    "outlineLineHeight": 24,
+    "savedTextArea": "",
+    "flSavedOpml": false,
+    "flChirpOnNewMessage": true,
+    "flUseMarkdown": false,
+    "lastTweetUrl": "https://twitter.com/davewiner/status/641643858514837504",
+    "lastPostTitle": "My new blog post",
+    "urlGlossaryOpml": "",
+    "copyright": "Copyright? We don't need no stinking copyright!",
+    "authorFacebookAccount": "papascott",
+    "authorGithubAccount": "papascott",
+    "authorLinkedInAccount": "",
+    "urlRssFeed": "http://edit.papascott.de:1999/users/papascott/rss.xml",
+    "lastPodcastUrl": "",
+    "flAutoPublish": false,
+    "flPublishToFacebook": false,
+    "flEditorsMenu": false,
+    "flPlugInsMenu": true,
+    "siteName": "papascott",
+    "urlBlogHome": "http://edit.papascott.de:1999/users/papascott/",
+    "collaborators": "papascott",
+    "rssTitle": "papascott's chatlog",
+    "rssLink": "http://edit.papascott.de:1999/users/papascott/",
+    "rssDescription": "",
+    "rssInstantArticlesSupport": false,
+    "flAnyoneCanReply": true,
+    "urlOpmlTemplate": "http://edit.papascott.de:1999/users/papascott/misc/template.opml",
+    "urlHtmlMenubar": "http://edit.papascott.de:1999/users/papascott/misc/menubar.html",
+    "urlOpmlMenubar": "http://edit.papascott.de:1999/users/papascott/misc/menubar.opml",
+    "urlPageStyles": "http://1999.io/dev/publish/styles.css",
+    "urlPageCode": "http://1999.io/dev/publish/code.js",
+    "flHomePage": false,
+    "defaultTitleStyle": "",
+    "urlImage": "",
+    "prev": {
+        "id": 5,
+        "name": "papascott",
+        "when": "2016-04-22T15:15:32.524Z",
+        "title": "Prince",
+        "urlHtml": "http://edit.papascott.de:1999/users/papascott/2016/04/22/0005.html",
+        "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/22/0005.json"
+    },
+    "next": {
+        "id": 7,
+        "name": "papascott",
+        "when": "2016-04-27T16:25:20.968Z",
+        "title": "Gliding 2",
+        "urlHtml": "http://edit.papascott.de:1999/users/papascott/2016/04/27/0007.html",
+        "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/27/0007.json"
+    },
+    "title": "How to build 3000 pages in Jekyll in less than 4 seconds",
+    "item": {
+        "name": "papascott",
+        "text": "<p>Last year I converted my Wordpress blog to <a href=\"http://jekyllrb.com/\">Jekyll</a>. My 16 years of blogging are now saved as text files which Jekyll renders into static HTML, which I then push to GitHub where the blog is now hosted. I <a href=\"http://www.papascott.de/archives/2015/04/30/see-what-sticks/\">mentioned then</a> that I took Jekyll some 3 minutes to render my 3000 or so blog posts, which is kind of a drag since the default is to rebuild the entire site every time even a small change is made.&nbsp;</p><p>Actually, the latest version of Jekyll improved build times considerably. It can now build my 3000 pages in about a minute. But when making changes, that's still too long to wait.</p><p>However, using a trick, I can now build those 3000 pages in 4 seconds. The trick seems pretty obvious to me, but I've not seen it written up anyplace, so hence this post.</p><p>The trick, of course, is to <i>not</i> build all 3000 pages. For older posts use <a href=\"https://jquery.com/\">jquery</a> to load in parts of the layout that might change, but leave the HTML file alone. For me, those parts are the sidebar and the recent posts. I build HTML snippets for those divs and load them in like:</p><blockquote>$( \"#sidebar\" ).load( \"/includes/sidebar.html\" );</blockquote><p>Right now, on the Jekyll side I don't want it to rebuild posts from before 2015. I've put all those ins a _posts/older subdirectory and added an exclude: directive in my _config.yml:</p><blockquote>exclude: [_posts/older]</blockquote><p>On the HTML side, ever since I started blogging, even way-back-when with <a href=\"http://scripting.com/davenet/1999/12/08/editthispagecom.html\">EditThisPage</a>, my posts have been sorted by date. I need to tell Jekyll not to erase the pages I've chosen not to rebuild (and it's too bad _config.yml doesn't understand wild cards)</p><blockquote>keep_files: [archives/1999, archives/200, archives/2010, archives/2011, archives/2012, archives/2013, archives/2014 ]</blockquote><p>At least \"archives/200\" covers an entire decade in one entry. :smile:</p><p>And that's it. When I do want to rebuild to entire site, I can comment out those two directives and let 'er rip. And being hosted at GitHub, you can see all my gory source files in the source branch at <a href=\"https://github.com/papascott/papascott.github.io\">https://github.com/papascott/papascott.github.io</a></p>",
+        "id": 6,
+        "when": "2016-04-25T06:23:42.718Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://edit.papascott.de:1999/users/papascott/2016/04/25/0006.html",
+            "title": "How to build 3000 pages in Jekyll in less than 4 seconds",
+            "flPublished": true
+        },
+        "urlJson": "http://edit.papascott.de:1999/users/papascott/2016/04/25/0006.json",
+        "subs": [],
+        "whenLastUpdate": "2016-04-25T07:29:39.969Z",
+        "ctUpdates": 19
+    },
+    "personName": "Scott Hanson",
+    "profileImageUrl": "http://pbs.twimg.com/profile_images/492959098724306944/o0uzsnoJ_normal.jpeg",
+    "whenPosted": "Monday, April 25, 2016",
+    "thispageurl": "http://edit.papascott.de:1999/users/papascott/2016/04/25/0006.html",
+    "twitterscreenname": "papascott",
+    "replies": "<ul>\n</ul>\n"
+}; 
+
+			</script>
+
+		</head>
+
+	<body  class="theme-base-08">
+
+		<div class="divPageBody" id="idPageBody">
+
+			<div class="divPrevNextNavigation" id="idPrevNextNavigation"></div>
+
+			<div class="divMessageTitle" id="idMessageTitle" >How to build 3000 pages in Jekyll in less than 4 seconds</div>
+
+			<div class="divChatLog" id="idChatLog">
+
+				<div class="divStaticChatLogItems">
+	<div class="divChatLogItems">
+		<div class="divChatItem">
+			<div class="divChatIcon"></div>
+			<div class="divChatText">
+				<div class="divTopMsgLine">
+					by <span class="spPersonName"><a href="http://twitter.com/papascott" target="_blank">Scott Hanson</a></span>
+					<span class="spWhen">Monday, April 25, 2016</span>
+					</div>
+				<div class="divMsgText"><p>Last year I converted my Wordpress blog to <a href="http://jekyllrb.com/">Jekyll</a>. My 16 years of blogging are now saved as text files which Jekyll renders into static HTML, which I then push to GitHub where the blog is now hosted. I <a href="http://www.papascott.de/archives/2015/04/30/see-what-sticks/">mentioned then</a> that I took Jekyll some 3 minutes to render my 3000 or so blog posts, which is kind of a drag since the default is to rebuild the entire site every time even a small change is made.&nbsp;</p><p>Actually, the latest version of Jekyll improved build times considerably. It can now build my 3000 pages in about a minute. But when making changes, that's still too long to wait.</p><p>However, using a trick, I can now build those 3000 pages in 4 seconds. The trick seems pretty obvious to me, but I've not seen it written up anyplace, so hence this post.</p><p>The trick, of course, is to <i>not</i> build all 3000 pages. For older posts use <a href="https://jquery.com/">jquery</a> to load in parts of the layout that might change, but leave the HTML file alone. For me, those parts are the sidebar and the recent posts. I build HTML snippets for those divs and load them in like:</p><blockquote>$( "#sidebar" ).load( "/includes/sidebar.html" );</blockquote><p>Right now, on the Jekyll side I don't want it to rebuild posts from before 2015. I've put all those ins a _posts/older subdirectory and added an exclude: directive in my _config.yml:</p><blockquote>exclude: [_posts/older]</blockquote><p>On the HTML side, ever since I started blogging, even way-back-when with <a href="http://scripting.com/davenet/1999/12/08/editthispagecom.html">EditThisPage</a>, my posts have been sorted by date. I need to tell Jekyll not to erase the pages I've chosen not to rebuild (and it's too bad _config.yml doesn't understand wild cards)</p><blockquote>keep_files: [archives/1999, archives/200, archives/2010, archives/2011, archives/2012, archives/2013, archives/2014 ]</blockquote><p>At least "archives/200" covers an entire decade in one entry. :smile:</p><p>And that's it. When I do want to rebuild to entire site, I can comment out those two directives and let 'er rip. And being hosted at GitHub, you can see all my gory source files in the source branch at <a href="https://github.com/papascott/papascott.github.io">https://github.com/papascott/papascott.github.io</a></p></div>
+				<div class="divMessageReplies"><ul>
+</ul>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+				<!--End %text% macro and divChatLog--></div>
+
+			<div class="divFooter" id="idFooter">
+
+				</div>
+
+			</div>
+
+		<script>
+
+			$(document).ready (function () {
+
+				startup ();
+
+				});
+
+			</script>
+
+		</body>
+
+	</html>
+
