@@ -6,12 +6,12 @@
     "payload": {
         "editor": "wizzy",
         "urlRendering": "http://test-blog.papascott.de/2016/09/12/reset.html",
-        "title": "Reset",
+        "title": "Resetting 1999",
         "fnameHtml": "reset.html",
         "flPublished": true
     },
     "urlJson": "http://test-blog.papascott.de/2016/09/12/0001.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-12T08:48:52.996Z",
-    "ctUpdates": 9
+    "whenLastUpdate": "2016-09-12T09:10:24.444Z",
+    "ctUpdates": 10
 }
