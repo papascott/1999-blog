@@ -7,10 +7,11 @@
         "editor": "wizzy",
         "urlRendering": "http://1999.papascott.de/2016/09/12/reset.html",
         "title": "Reset",
-        "fnameHtml": "reset.html"
+        "fnameHtml": "reset.html",
+        "flPublished": true
     },
     "urlJson": "http://1999.papascott.de/2016/09/12/0001.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-12T07:12:36.226Z",
-    "ctUpdates": 3
+    "whenLastUpdate": "2016-09-12T07:13:05.637Z",
+    "ctUpdates": 4
 }
