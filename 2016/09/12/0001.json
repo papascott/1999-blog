@@ -1,17 +1,17 @@
 {
     "name": "papascott",
-    "text": "<p>This is a reset. Do not be alarmed. Resetting again, my pretties.</p>",
+    "text": "<p>This is a reset. Do not be alarmed. Resetting again, my pretties. Ha ha ha!</p>",
     "id": 1,
     "when": "2016-09-12T07:11:54.778Z",
     "payload": {
         "editor": "wizzy",
-        "urlRendering": "http://1999.papascott.de/2016/09/12/reset.html",
+        "urlRendering": "http://test-blog.papascott.de/2016/09/12/reset.html",
         "title": "Reset",
         "fnameHtml": "reset.html",
         "flPublished": true
     },
-    "urlJson": "http://1999.papascott.de/2016/09/12/0001.json",
+    "urlJson": "http://test-blog.papascott.de/2016/09/12/0001.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-12T08:35:12.347Z",
-    "ctUpdates": 7
+    "whenLastUpdate": "2016-09-12T08:48:12.320Z",
+    "ctUpdates": 8
 }
