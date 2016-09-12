@@ -1,6 +1,6 @@
 {
     "name": "papascott",
-    "text": "<p>I didn't want to be testing here, but as long as I am at it, do the git commits work here? Testing some more.<span>&nbsp;</span></p>",
+    "text": "<p>I didn't want to be testing here, but as long as I am at it, do the git commits work here? Testing some more. And more.<span>&nbsp;</span></p>",
     "id": 16,
     "when": "2016-09-11T13:22:36.470Z",
     "payload": {
@@ -12,6 +12,6 @@
     },
     "urlJson": "http://1999.papascott.de/2016/09/11/0016.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-12T04:08:35.187Z",
-    "ctUpdates": 24
+    "whenLastUpdate": "2016-09-12T04:15:15.644Z",
+    "ctUpdates": 25
 }
