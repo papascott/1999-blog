@@ -1,6 +1,6 @@
 {
     "name": "papascott",
-    "text": "<p>This is a reset. Do not be alarmed. Resetting again, my pretties. And your little dog, too!</p>",
+    "text": "<p>This is a reset. Do not be alarmed. Resetting again, my pretties.</p>",
     "id": 1,
     "when": "2016-09-12T07:11:54.778Z",
     "payload": {
@@ -12,6 +12,6 @@
     },
     "urlJson": "http://1999.papascott.de/2016/09/12/0001.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-12T08:34:14.035Z",
-    "ctUpdates": 6
+    "whenLastUpdate": "2016-09-12T08:35:12.347Z",
+    "ctUpdates": 7
 }
