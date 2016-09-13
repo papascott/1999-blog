@@ -6,12 +6,12 @@
     "payload": {
         "editor": "wizzy",
         "urlRendering": "http://test-blog.papascott.de/2016/09/13/0002.html",
-        "title": "Copying 1999.io files to GitHub: initial set-up",
+        "title": "Copying 1999.io files to GitHub initial set-up",
         "fnameHtml": "settingUpForGithub.html",
         "flPublished": true
     },
     "urlJson": "http://test-blog.papascott.de/2016/09/13/0002.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-13T09:26:01.867Z",
-    "ctUpdates": 17
+    "whenLastUpdate": "2016-09-13T09:26:50.085Z",
+    "ctUpdates": 18
 }
