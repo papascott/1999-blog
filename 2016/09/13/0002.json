@@ -6,11 +6,11 @@
     "payload": {
         "editor": "wizzy",
         "urlRendering": "http://test-blog.papascott.de/2016/09/13/0002.html",
-        "title": "Setting up for GitHub",
+        "title": "Set up for copying 1999.io files to GitHub",
         "fnameHtml": "settingUpForGithub.html"
     },
     "urlJson": "http://test-blog.papascott.de/2016/09/13/0002.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-13T09:20:03.743Z",
-    "ctUpdates": 10
+    "whenLastUpdate": "2016-09-13T09:20:49.642Z",
+    "ctUpdates": 11
 }
