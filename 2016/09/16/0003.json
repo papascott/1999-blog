@@ -1,6 +1,6 @@
 {
     "name": "papascott",
-    "text": "<p>This didn't actually turn out the way I planned…</p><p>I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&nbsp;</p><p>Since the simple-git module is included with nodeStorage, it can be simply loaded into our callback. In theory it would just be</p><blockquote>var ghRoot = \"/home/shanson/test-rhino\"; //where I cloned the repository<br>var simpleGit = require('simple-git')(ghRoot);<br><span style=\"font-size: 17.5px;\">filesystem.newObject(ghRoot + '/' + relpath, body);<br></span>simpleGit.status().add('.').commit('Updated from 1999.io').push();</blockquote><p><br></p><p></p>",
+    "text": "<p>This didn't actually turn out the way I planned…</p><p>I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&nbsp;</p><p>Since the simple-git module is included with nodeStorage, it can be simply loaded into our callback. In theory it would just be</p><p><blockquote>var ghRoot = \"/home/shanson/test-rhino\"; //where I cloned the repository<br>var simpleGit = require('simple-git')(ghRoot); <br>filesystem.newObject(ghRoot + '/' + relpath, body); <br>simpleGit.status().add('.').commit('Updated from 1999.io').push();</blockquote></p><p><br></p><p></p>",
     "id": 3,
     "when": "2016-09-16T12:00:28.372Z",
     "payload": {
@@ -11,6 +11,6 @@
     },
     "urlJson": "http://test-blog.papascott.de/2016/09/16/0003.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-16T12:06:05.204Z",
-    "ctUpdates": 5
+    "whenLastUpdate": "2016-09-16T12:07:03.062Z",
+    "ctUpdates": 6
 }
