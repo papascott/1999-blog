@@ -2,7 +2,7 @@
 
 	<head>
 
-		<title>Push 1999.io to GitHub</title>
+		<title>Copy 1999.io files to GitHub 2</title>
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -24,13 +24,13 @@
 
 		<!-- Facebook metadata -->
 
-			<meta property="og:url" content="http://test-blog.papascott.de/2016/09/16/0003.html" />
+			<meta property="og:url" content="http://test-blog.papascott.de/2016/09/16/push1999ioToGithub.html" />
 
 			<meta property="og:type" content="website" />
 
-			<meta property="og:title" content="Push 1999.io to GitHub" />
+			<meta property="og:title" content="Copy 1999.io files to GitHub 2" />
 
-			<meta property="og:description" content="This didn't actually turn out the way I planned…I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&amp;nbsp;" />
+			<meta property="og:description" content="This didn't actually turn out the way I planned when I was setting everything up for GitHub…I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&amp;nbsp;Since the simple-git module is included with nodeStorage, it can be simply loaded into our callback. In theory it would just bevar ghRoot = &quot;/home/shanson/test-rhino&quot;; //where I cloned the repositoryvar simpleGit = require('simple-git')(ghRoot); filesystem.newObject(ghRoot + '/' + relpath, body); simpleGit.status().add('.').commit('Updated from 1999.io').push();This works when testing with a single file. When I actually put it in a callback, I sometimes get errors when trying to push. The reason is when updating a post, the callback is called on 5 different files simultaneously. That's no problem when just writing files, but when they all try to push to GitHub over the network at the same time, some of them will fail.I wasn't sure how to get the callbacks to keep track of what the others were doing, and for the time being I came up with a kludge. I only run the simpleGit commands for rss.xml (which gets written on every update), and using setTimeout I wait 5 seconds before doing so (since all the callbacks seems to complete in about 1 second, 5 seconds should be long enough for them to complete). My script is saved as a gist.It's a interim solution, a kludge, it works well enough for my purposes, but I wouldn't recommend it for anybody else. However, GitHub does have an API where you can take actions without a local repository. Maybe that will work better? Stay tuned." />
 
 			<meta property="og:site_name" content="papascott" />
 
@@ -42,9 +42,9 @@
 
 			<meta name="twitter:site" content="@papascott">
 
-			<meta name="twitter:title" content="Push 1999.io to GitHub">
+			<meta name="twitter:title" content="Copy 1999.io files to GitHub 2">
 
-			<meta name="twitter:description" content="This didn't actually turn out the way I planned…I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&amp;nbsp;">
+			<meta name="twitter:description" content="This didn't actually turn out the way I planned when I was setting everything up for GitHub…I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&amp;nbsp;Since the simple-git module is included with nodeStorage, it can be simply loaded into our callback. In theory it would just bevar ghRoot = &quot;/home/shanson/test-rhino&quot;; //where I cloned the repositoryvar simpleGit = require('simple-git')(ghRoot); filesystem.newObject(ghRoot + '/' + relpath, body); simpleGit.status().add('.').commit('Updated from 1999.io').push();This works when testing with a single file. When I actually put it in a callback, I sometimes get errors when trying to push. The reason is when updating a post, the callback is called on 5 different files simultaneously. That's no problem when just writing files, but when they all try to push to GitHub over the network at the same time, some of them will fail.I wasn't sure how to get the callbacks to keep track of what the others were doing, and for the time being I came up with a kludge. I only run the simpleGit commands for rss.xml (which gets written on every update), and using setTimeout I wait 5 seconds before doing so (since all the callbacks seems to complete in about 1 second, 5 seconds should be long enough for them to complete). My script is saved as a gist.It's a interim solution, a kludge, it works well enough for my purposes, but I wouldn't recommend it for anybody else. However, GitHub does have an API where you can take actions without a local repository. Maybe that will work better? Stay tuned.">
 
 			<meta name="twitter:image:src" content="">
 
@@ -63,7 +63,7 @@
 			var pagetable = {
     "productname": "1999",
     "productnameForDisplay": "1999",
-    "description": "This didn't actually turn out the way I planned…I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&amp;nbsp;",
+    "description": "This didn't actually turn out the way I planned when I was setting everything up for GitHub…I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&amp;nbsp;Since the simple-git module is included with nodeStorage, it can be simply loaded into our callback. In theory it would just bevar ghRoot = &quot;/home/shanson/test-rhino&quot;; //where I cloned the repositoryvar simpleGit = require('simple-git')(ghRoot); filesystem.newObject(ghRoot + '/' + relpath, body); simpleGit.status().add('.').commit('Updated from 1999.io').push();This works when testing with a single file. When I actually put it in a callback, I sometimes get errors when trying to push. The reason is when updating a post, the callback is called on 5 different files simultaneously. That's no problem when just writing files, but when they all try to push to GitHub over the network at the same time, some of them will fail.I wasn't sure how to get the callbacks to keep track of what the others were doing, and for the time being I came up with a kludge. I only run the simpleGit commands for rss.xml (which gets written on every update), and using setTimeout I wait 5 seconds before doing so (since all the callbacks seems to complete in about 1 second, 5 seconds should be long enough for them to complete). My script is saved as a gist.It's a interim solution, a kludge, it works well enough for my purposes, but I wouldn't recommend it for anybody else. However, GitHub does have an API where you can take actions without a local repository. Maybe that will work better? Stay tuned.",
     "urlTwitterServer": "http://edit.papascott.de:1999/",
     "urlPageTemplate": "/template.html",
     "urlChatLogSocket": "ws://edit.papascott.de:2000/",
@@ -127,29 +127,30 @@
         "urlHtml": "http://test-blog.papascott.de/2016/09/13/settingUpForGithub.html",
         "urlJson": "http://test-blog.papascott.de/2016/09/13/0002.json"
     },
-    "title": "Push 1999.io to GitHub",
+    "title": "Copy 1999.io files to GitHub 2",
     "item": {
         "name": "papascott",
-        "text": "<p>This didn't actually turn out the way I planned…</p><p>I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&nbsp;</p>",
+        "text": "<p>This didn't actually turn out the way I planned when I was <a href=\"http://1999.papascott.de/2016/09/13/settingUpForGithub.html\">setting everything up for GitHub</a>…</p><p>I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&nbsp;</p><p>Since the simple-git module is included with nodeStorage, it can be simply loaded into our callback. In theory it would just be</p><p></p><blockquote>var ghRoot = \"/home/shanson/test-rhino\"; //where I cloned the repository<br>var simpleGit = require('simple-git')(ghRoot); <br>filesystem.newObject(ghRoot + '/' + relpath, body); <br>simpleGit.status().add('.').commit('Updated from 1999.io').push();</blockquote><p></p><p>This works when testing with a single file. When I actually put it in a callback, I sometimes get errors when trying to push. The reason is when updating a post, the callback is called on 5 different files simultaneously. That's no problem when just writing files, but when they all try to push to GitHub over the network at the same time, some of them will fail.</p><p>I wasn't sure how to get the callbacks to keep track of what the others were doing, and for the time being I came up with a kludge. I only run the simpleGit commands for rss.xml (which gets written on every update), and using setTimeout I wait 5 seconds before doing so (since all the callbacks seems to complete in about 1 second, 5 seconds should be long enough for them to complete). My script is saved as a <a href=\"https://gist.github.com/papascott/03f48a0bb553619f2f74789716e857b2\">gist</a>.</p><p>It's a interim solution, a kludge, it works well enough for my purposes, but I wouldn't recommend it for anybody else. However, GitHub does have an API where you can take actions without a local repository. Maybe that will work better? Stay tuned.</p><p></p>",
         "id": 3,
         "when": "2016-09-16T12:00:28.372Z",
         "payload": {
             "editor": "wizzy",
-            "urlRendering": "http://test-blog.papascott.de/2016/09/16/0003.html",
-            "title": "Push 1999.io to GitHub",
-            "fnameHtml": "push1999ioToGithub.html"
+            "urlRendering": "http://test-blog.papascott.de/2016/09/16/push1999ioToGithub.html",
+            "title": "Copy 1999.io files to GitHub 2",
+            "fnameHtml": "push1999ioToGithub.html",
+            "flPublished": true
         },
         "urlJson": "http://test-blog.papascott.de/2016/09/16/0003.json",
         "subs": [],
-        "whenLastUpdate": "2016-09-16T12:00:47.611Z",
-        "ctUpdates": 2,
+        "whenLastUpdate": "2016-09-16T12:39:47.786Z",
+        "ctUpdates": 15,
         "chatLog": "papascott"
     },
     "imageForMeta": "",
     "personName": "Scott Hanson",
     "profileImageUrl": "http://pbs.twimg.com/profile_images/492959098724306944/o0uzsnoJ_normal.jpeg",
     "whenPosted": "Friday, September 16, 2016",
-    "thispageurl": "http://test-blog.papascott.de/2016/09/16/0003.html",
+    "thispageurl": "http://test-blog.papascott.de/2016/09/16/push1999ioToGithub.html",
     "twitterscreenname": "papascott",
     "replies": "<ul>\n</ul>\n"
 }; 
@@ -164,7 +165,7 @@
 
 			<div class="divPrevNextNavigation" id="idPrevNextNavigation"></div>
 
-			<div class="divMessageTitle" id="idMessageTitle" >Push 1999.io to GitHub</div>
+			<div class="divMessageTitle" id="idMessageTitle" >Copy 1999.io files to GitHub 2</div>
 
 			<div class="divChatLog" id="idChatLog">
 
@@ -177,7 +178,7 @@
 					by <span class="spPersonName"><a href="http://twitter.com/papascott" target="_blank">Scott Hanson</a></span>
 					<span class="spWhen">Friday, September 16, 2016</span>
 					</div>
-				<div class="divMsgText"><p>This didn't actually turn out the way I planned…</p><p>I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&nbsp;</p></div>
+				<div class="divMsgText"><p>This didn't actually turn out the way I planned when I was <a href="http://1999.papascott.de/2016/09/13/settingUpForGithub.html">setting everything up for GitHub</a>…</p><p>I thought that using git from a callback would be just like using it when I'm using it to save code. Do 'git status' to see what needs to be done, 'git add' to set up what to commit, 'git commit' to save to the local repository, and finally 'git push' to send the changes to GitHub.&nbsp;</p><p>Since the simple-git module is included with nodeStorage, it can be simply loaded into our callback. In theory it would just be</p><p></p><blockquote>var ghRoot = "/home/shanson/test-rhino"; //where I cloned the repository<br>var simpleGit = require('simple-git')(ghRoot); <br>filesystem.newObject(ghRoot + '/' + relpath, body); <br>simpleGit.status().add('.').commit('Updated from 1999.io').push();</blockquote><p></p><p>This works when testing with a single file. When I actually put it in a callback, I sometimes get errors when trying to push. The reason is when updating a post, the callback is called on 5 different files simultaneously. That's no problem when just writing files, but when they all try to push to GitHub over the network at the same time, some of them will fail.</p><p>I wasn't sure how to get the callbacks to keep track of what the others were doing, and for the time being I came up with a kludge. I only run the simpleGit commands for rss.xml (which gets written on every update), and using setTimeout I wait 5 seconds before doing so (since all the callbacks seems to complete in about 1 second, 5 seconds should be long enough for them to complete). My script is saved as a <a href="https://gist.github.com/papascott/03f48a0bb553619f2f74789716e857b2">gist</a>.</p><p>It's a interim solution, a kludge, it works well enough for my purposes, but I wouldn't recommend it for anybody else. However, GitHub does have an API where you can take actions without a local repository. Maybe that will work better? Stay tuned.</p><p></p></div>
 				<div class="divMessageReplies"><ul>
 </ul>
 </div>
@@ -194,7 +195,7 @@
 	<div id="disqus_thread"></div>
 	<script>
 		var disqus_config = function () {
-			this.page.url = "http://test-blog.papascott.de/2016/09/16/0003.html"; 
+			this.page.url = "http://test-blog.papascott.de/2016/09/16/push1999ioToGithub.html"; 
 			};
 		(function () {  
 			var d = document, s = d.createElement ('script');
