@@ -7,10 +7,11 @@
         "editor": "wizzy",
         "urlRendering": "http://test-blog.papascott.de/2016/09/16/push1999ioToGithub.html",
         "title": "Copy 1999.io files to GitHub 2",
-        "fnameHtml": "push1999ioToGithub.html"
+        "fnameHtml": "push1999ioToGithub.html",
+        "flPublished": true
     },
     "urlJson": "http://test-blog.papascott.de/2016/09/16/0003.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-16T12:29:53.700Z",
-    "ctUpdates": 13
+    "whenLastUpdate": "2016-09-16T12:31:29.810Z",
+    "ctUpdates": 14
 }
