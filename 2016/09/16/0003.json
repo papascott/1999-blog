@@ -5,10 +5,12 @@
     "when": "2016-09-16T12:00:28.372Z",
     "payload": {
         "editor": "wizzy",
-        "urlRendering": "http://test-blog.papascott.de/2016/09/16/0003.html"
+        "urlRendering": "http://test-blog.papascott.de/2016/09/16/push1999ioToGithub.html",
+        "title": "Push 1999.io to GitHub",
+        "fnameHtml": "push1999ioToGithub.html"
     },
     "urlJson": "http://test-blog.papascott.de/2016/09/16/0003.json",
     "subs": [],
-    "whenLastUpdate": "2016-09-16T12:00:28.609Z",
-    "ctUpdates": 1
+    "whenLastUpdate": "2016-09-16T12:00:47.733Z",
+    "ctUpdates": 3
 }
