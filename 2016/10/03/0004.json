@@ -1,14 +1,16 @@
 {
     "name": "papascott",
-    "text": "<p>When my plan to push my updates to GitHub using simpleGit didn't go as planned, I was certainly expecting to write \"but when pushing over the GitHub API the updates worked as expected\". But they didn't. I was having the same problems over the API as when using simpleGit locally.</p><p>The problem, I think, is the same as before, and is similar to <a href=\"http://scripting.com/2016/09/27/whatILearnedAboutFswritefileToday.html\">the problems with fs.writeFile</a> that Dave described last week.&nbsp;</p>",
+    "text": "<p>When my plan to push my updates to GitHub using simpleGit didn't go as planned, I was certainly expecting to write \"but when pushing over the GitHub API the updates worked as expected\". But they didn't. I was having the same problems over the API as when using simpleGit locally.</p><p>The problem, I think, is the same as before, and is similar to <a href=\"http://scripting.com/2016/09/27/whatILearnedAboutFswritefileToday.html\">the problems with fs.writeFile</a> that Dave described last week. The server is synchronous and will call several publish callbacks at the same time. To reliably push to GitHub, I need to deal with the updated files asynchronously, one after the other. And since the publish callbacks run inside the server, I don't really want to do asynchronous things inside my publish callbacks, since I could then slow down or even block the server.</p><p>My idea now is just to save the updates someplace as json, then write a script running separately from nodeStorage to handle those updates one at a time. I'll do my best to give the json files unique filenames, using a timestamp with Date.now() and a md5 checksum of the body of the file being written. <a href=\"https://gist.github.com/papascott/32814997cf5e428085d7589388b7b71d\">Here is my script.</a></p><p><br></p>",
     "id": 4,
     "when": "2016-10-03T11:33:21.998Z",
     "payload": {
         "editor": "wizzy",
-        "urlRendering": "http://test-blog.papascott.de/2016/10/03/0004.html"
+        "urlRendering": "http://test-blog.papascott.de/2016/10/03/save1999ioUpdatesAsJsonToDealWithLater.html",
+        "title": "Save 1999.io updates as json to deal with later",
+        "fnameHtml": "save1999ioUpdatesAsJsonToDealWithLater.html"
     },
     "urlJson": "http://test-blog.papascott.de/2016/10/03/0004.json",
     "subs": [],
-    "whenLastUpdate": "2016-10-03T11:33:22.197Z",
-    "ctUpdates": 1
+    "whenLastUpdate": "2016-10-03T11:50:36.569Z",
+    "ctUpdates": 4
 }

@@ -1,0 +1,227 @@
+<html>
+
+	<head>
+
+		<title>Save 1999.io updates as json to deal with later</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="alternate" type="application/rss+xml" href="http://test-blog.papascott.de/rss.xml" />
+
+		
+
+		<script src="http://1999.io/dev/publish/code.js"></script>
+
+		<link rel="stylesheet" href="http://1999.io/dev/publish/styles.css"/>
+
+		
+
+		<!-- Hellllp?! I'm trapped in an HTML page! -->
+
+		
+
+		<!-- Facebook metadata -->
+
+			<meta property="og:url" content="http://test-blog.papascott.de/2016/10/03/save1999ioUpdatesAsJsonToDealWithLater.html" />
+
+			<meta property="og:type" content="website" />
+
+			<meta property="og:title" content="Save 1999.io updates as json to deal with later" />
+
+			<meta property="og:description" content="When my plan to push my updates to GitHub using simpleGit didn't go as planned, I was certainly expecting to write &quot;but when pushing over the GitHub API the updates worked as expected&quot;. But they didn't. I was having the same problems over the API as when using simpleGit locally.The problem, I think, is the same as before, and is similar to the problems with fs.writeFile that Dave described last week. The server is synchronous and will call several publish callbacks at the same time. To reliably push to GitHub, I need to deal with the updated files asynchronously, one after the other. And since the publish callbacks run inside the server, I don't really want to do asynchronous things inside my publish callbacks, since I could then slow down or even block the server.My idea now is just to save the updates someplace as json, then write a script running separately from nodeStorage to handle those updates one at a time. I'll do my best to give the json files unique filenames, using a timestamp with Date.now() and a md5 checksum of the body of the file being written. Here is my script." />
+
+			<meta property="og:site_name" content="papascott" />
+
+			<meta property="og:image" content="" />
+
+		<!-- Twitter metadata -->
+
+			<meta name="twitter:card" content="summary_large_image">
+
+			<meta name="twitter:site" content="@papascott">
+
+			<meta name="twitter:title" content="Save 1999.io updates as json to deal with later">
+
+			<meta name="twitter:description" content="When my plan to push my updates to GitHub using simpleGit didn't go as planned, I was certainly expecting to write &quot;but when pushing over the GitHub API the updates worked as expected&quot;. But they didn't. I was having the same problems over the API as when using simpleGit locally.The problem, I think, is the same as before, and is similar to the problems with fs.writeFile that Dave described last week. The server is synchronous and will call several publish callbacks at the same time. To reliably push to GitHub, I need to deal with the updated files asynchronously, one after the other. And since the publish callbacks run inside the server, I don't really want to do asynchronous things inside my publish callbacks, since I could then slow down or even block the server.My idea now is just to save the updates someplace as json, then write a script running separately from nodeStorage to handle those updates one at a time. I'll do my best to give the json files unique filenames, using a timestamp with Date.now() and a md5 checksum of the body of the file being written. Here is my script.">
+
+			<meta name="twitter:image:src" content="">
+
+		<style>
+
+			.brand a {
+
+				color:  #777777;
+
+				}
+
+			</style>
+
+		<script>
+
+			var pagetable = {
+    "productname": "1999",
+    "productnameForDisplay": "1999",
+    "description": "When my plan to push my updates to GitHub using simpleGit didn't go as planned, I was certainly expecting to write &quot;but when pushing over the GitHub API the updates worked as expected&quot;. But they didn't. I was having the same problems over the API as when using simpleGit locally.The problem, I think, is the same as before, and is similar to the problems with fs.writeFile that Dave described last week. The server is synchronous and will call several publish callbacks at the same time. To reliably push to GitHub, I need to deal with the updated files asynchronously, one after the other. And since the publish callbacks run inside the server, I don't really want to do asynchronous things inside my publish callbacks, since I could then slow down or even block the server.My idea now is just to save the updates someplace as json, then write a script running separately from nodeStorage to handle those updates one at a time. I'll do my best to give the json files unique filenames, using a timestamp with Date.now() and a md5 checksum of the body of the file being written. Here is my script.",
+    "urlTwitterServer": "http://edit.papascott.de:1999/",
+    "urlPageTemplate": "/template.html",
+    "urlChatLogSocket": "ws://edit.papascott.de:2000/",
+    "domain": "1999.io",
+    "nameChatLog": "papascott",
+    "facebookAppId": "1720585981555833",
+    "urlMyMessageOfTheDay": "http://1999.io/misc/motd.txt",
+    "version": "0.91b",
+    "flEditChatUsePostBody": true,
+    "ctStartups": 111,
+    "flAutoSave": true,
+    "minSecsBetwAutoSaves": 2,
+    "textFont": "Ubuntu",
+    "textFontSize": 22,
+    "textLineHeight": 30,
+    "outlineFont": "Ubuntu",
+    "outlineFontSize": 16,
+    "outlineLineHeight": 24,
+    "savedTextArea": "",
+    "flSavedOpml": false,
+    "flChirpOnNewMessage": false,
+    "flUseMarkdown": false,
+    "lastTweetUrl": "https://twitter.com/davewiner/status/641643858514837504",
+    "lastPostTitle": "My new blog post",
+    "urlGlossaryOpml": "",
+    "copyright": "",
+    "authorFacebookAccount": "",
+    "authorGithubAccount": "",
+    "authorLinkedInAccount": "",
+    "urlRssFeed": "http://test-blog.papascott.de/rss.xml",
+    "lastPodcastUrl": "",
+    "flAutoPublish": false,
+    "flPublishToFacebook": false,
+    "flEditorsMenu": true,
+    "flPlugInsMenu": true,
+    "lastImageUrl": "",
+    "lastImageAlign": "right",
+    "flBetterStoryUrls": true,
+    "flDisqusComments": true,
+    "disqusGroup": "1999-papascott-de",
+    "siteName": "papascott",
+    "urlBlogHome": "http://test-blog.papascott.de/",
+    "collaborators": "papascott",
+    "rssTitle": "1999.papascott.de",
+    "rssLink": "http://test-blog.papascott.de/",
+    "rssDescription": "papascott on 1999.io",
+    "rssInstantArticlesSupport": false,
+    "flAnyoneCanReply": true,
+    "urlOpmlTemplate": "http://test-blog.papascott.de/misc/template.opml",
+    "urlPageStyles": "http://1999.io/dev/publish/styles.css",
+    "urlPageCode": "http://1999.io/dev/publish/code.js",
+    "flHomePage": false,
+    "defaultTitleStyle": "",
+    "urlImage": "",
+    "disqusComments": "",
+    "prev": {
+        "id": 3,
+        "name": "papascott",
+        "when": "2016-09-16T12:00:28.372Z",
+        "title": "Copy 1999.io files to GitHub 2",
+        "urlHtml": "http://test-blog.papascott.de/2016/09/16/push1999ioToGithub.html",
+        "urlJson": "http://test-blog.papascott.de/2016/09/16/0003.json"
+    },
+    "title": "Save 1999.io updates as json to deal with later",
+    "item": {
+        "name": "papascott",
+        "text": "<p>When my plan to push my updates to GitHub using simpleGit didn't go as planned, I was certainly expecting to write \"but when pushing over the GitHub API the updates worked as expected\". But they didn't. I was having the same problems over the API as when using simpleGit locally.</p><p>The problem, I think, is the same as before, and is similar to <a href=\"http://scripting.com/2016/09/27/whatILearnedAboutFswritefileToday.html\">the problems with fs.writeFile</a> that Dave described last week. The server is synchronous and will call several publish callbacks at the same time. To reliably push to GitHub, I need to deal with the updated files asynchronously, one after the other. And since the publish callbacks run inside the server, I don't really want to do asynchronous things inside my publish callbacks, since I could then slow down or even block the server.</p><p>My idea now is just to save the updates someplace as json, then write a script running separately from nodeStorage to handle those updates one at a time. I'll do my best to give the json files unique filenames, using a timestamp with Date.now() and a md5 checksum of the body of the file being written. <a href=\"https://gist.github.com/papascott/32814997cf5e428085d7589388b7b71d\">Here is my script.</a></p><p><br></p>",
+        "id": 4,
+        "when": "2016-10-03T11:33:21.998Z",
+        "payload": {
+            "editor": "wizzy",
+            "urlRendering": "http://test-blog.papascott.de/2016/10/03/save1999ioUpdatesAsJsonToDealWithLater.html",
+            "title": "Save 1999.io updates as json to deal with later",
+            "fnameHtml": "save1999ioUpdatesAsJsonToDealWithLater.html"
+        },
+        "urlJson": "http://test-blog.papascott.de/2016/10/03/0004.json",
+        "subs": [],
+        "whenLastUpdate": "2016-10-03T11:50:36.569Z",
+        "ctUpdates": 4
+    },
+    "imageForMeta": "",
+    "personName": "Scott Hanson",
+    "profileImageUrl": "http://pbs.twimg.com/profile_images/492959098724306944/o0uzsnoJ_normal.jpeg",
+    "whenPosted": "Monday, October  3, 2016",
+    "thispageurl": "http://test-blog.papascott.de/2016/10/03/save1999ioUpdatesAsJsonToDealWithLater.html",
+    "twitterscreenname": "papascott",
+    "replies": "<ul>\n</ul>\n"
+}; 
+
+			</script>
+
+		</head>
+
+	<body>
+
+		<div class="divPageBody" id="idPageBody">
+
+			<div class="divPrevNextNavigation" id="idPrevNextNavigation"></div>
+
+			<div class="divMessageTitle" id="idMessageTitle" >Save 1999.io updates as json to deal with later</div>
+
+			<div class="divChatLog" id="idChatLog">
+
+				<div class="divStaticChatLogItems">
+	<div class="divChatLogItems">
+		<div class="divChatItem">
+			<div class="divChatIcon"></div>
+			<div class="divChatText">
+				<div class="divTopMsgLine">
+					by <span class="spPersonName"><a href="http://twitter.com/papascott" target="_blank">Scott Hanson</a></span>
+					<span class="spWhen">Monday, October  3, 2016</span>
+					</div>
+				<div class="divMsgText"><p>When my plan to push my updates to GitHub using simpleGit didn't go as planned, I was certainly expecting to write "but when pushing over the GitHub API the updates worked as expected". But they didn't. I was having the same problems over the API as when using simpleGit locally.</p><p>The problem, I think, is the same as before, and is similar to <a href="http://scripting.com/2016/09/27/whatILearnedAboutFswritefileToday.html">the problems with fs.writeFile</a> that Dave described last week. The server is synchronous and will call several publish callbacks at the same time. To reliably push to GitHub, I need to deal with the updated files asynchronously, one after the other. And since the publish callbacks run inside the server, I don't really want to do asynchronous things inside my publish callbacks, since I could then slow down or even block the server.</p><p>My idea now is just to save the updates someplace as json, then write a script running separately from nodeStorage to handle those updates one at a time. I'll do my best to give the json files unique filenames, using a timestamp with Date.now() and a md5 checksum of the body of the file being written. <a href="https://gist.github.com/papascott/32814997cf5e428085d7589388b7b71d">Here is my script.</a></p><p><br></p></div>
+				<div class="divMessageReplies"><ul>
+</ul>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+				</div>
+
+			
+<div class="divDisqusComments">
+	<div id="disqus_thread"></div>
+	<script>
+		var disqus_config = function () {
+			this.page.url = "http://test-blog.papascott.de/2016/10/03/save1999ioUpdatesAsJsonToDealWithLater.html"; 
+			};
+		(function () {  
+			var d = document, s = d.createElement ('script');
+			s.src = '//1999-papascott-de.disqus.com/embed.js';  
+			s.setAttribute ('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+			})();
+		</script>
+	</div>
+
+
+			<div class="divFooter" id="idFooter">
+
+				</div>
+
+			</div>
+
+		<script>
+
+			$(document).ready (function () {
+
+				startup ();
+
+				});
+
+			</script>
+
+		</body>
+
+	</html>
+
